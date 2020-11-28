@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!-- Primary Meta Tags -->
+    <title>Book Recommender</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="120x120" href="./assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./assets/img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="./assets/img/favicon/safari-pinned-tab.svg" color="#ffffff">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Fontawesome -->
+    <link type="text/css" href="./vendor/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+    <!-- Swipe CSS -->
+    <link type="text/css" href="./css/swipe.css" rel="stylesheet">
+
+</head>
+
+<body class="bg-soft">
+    <header class="header-global" id="home">
+    <nav id="navbar-main" aria-label="Primary navigation" class="navbar navbar-main navbar-expand-lg navbar-theme-primary headroom navbar-light navbar-theme-secondary">
+        <div class="container position-relative">
+            <a class="navbar-brand mr-lg-4" href="">
+                <img class="navbar-brand-dark" src="./assets/img/light.svg" alt="Logo light">
+                <img class="navbar-brand-light" src="./assets/img/dark.svg" alt="Logo dark">
+            </a>
+            <div class="navbar-collapse collapse mr-auto" id="navbar_global">
+                <div class="navbar-collapse-header">
+                    <div class="row">
+                        <div class="col-6 collapse-brand">
+                            <a href="">
+                                <img src="./assets/img/dark.svg" alt="Logo dark">
+                            </a>
+                        </div>
+                        <div class="col-6 collapse-close">
+                            <a href="#navbar_global" class="fas fa-times" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" title="close" aria-label="Toggle navigation"></a>
+                        </div>
+                    </div>
+                </div>
+                <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">
+                            About
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#faq" class="nav-link">
+                            FAQ
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="d-flex align-items-center">
+                <button class="navbar-toggler ml-2" type="button" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+</header>
+    <main>
+        <!-- Hero -->
+        <section class="section section-header text-dark pb-md-8">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-7 text-center mb-5 mb-md-7">
+                        <h1 class="display-2 font-weight-bolder mb-4">
+                            BOOK RECOMMENDER
+                        </h1>
+                        <p class="lead mb-4 mb-lg-5">This is a IBM Watson Based Book Recommendation Chatbot that can recommend the users a specific book depending upon the genre that is provided.</p>
+                        <button class="btn btn-dark shadow-soft btn-lg" id="tryit" onclick="Trychatbot()">Try it</button>
+                    </div>
+                    <div class="col-12 col-md-5 justify-content-center">
+                        <img src="./assets/img/illustrations/reading.svg">
+                    </div>
+                    <a href="#about" class="icon icon-soft icon-md btn btn-icon-only btn-dark border border-soft shadow-soft animate-up-3">
+                        <span class="fas fa-chevron-down"></span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="section section-lg" id="about">
+            <div class="container">
+                <div class="row justify-content-center mb-5 mb-lg-7">
+                    <div class="col-12 col-lg-12 text-center">
+                        <h2 class="h1 mb-4">Better in every way</h2>
+                        <p class="lead">An Intelligent Bot that recommends you some of the great books handpicked by us. The Bot is bootstrapped with IBM Watson Assistant. The bot can recommend various genres of books like Horror, Mystery, Thriller, Fiction types - Science Fiction, Historical, Fantasy, Realistic Fiction, Kids Books and many more. It can even detect vague replies and reply accordingly. It has conditional jumps also configured for better user experience.</p>
+                    </div>
+                </div>
+                <div class="row row-grid align-items-center mb-5 mb-lg-7">
+                    <div class="col-12 col-lg-8">
+                        <h2 class="mb-4">IBM Watson Assistant</h2>
+                        <p>Watson Assistant is IBM’s AI product that lets you build, train, and deploy conversational interactions into any application, device or channel.</p>
+                        <p>Most chatbots try to mimic human interactions, which can frustrate users when a sunderstanding arises. Watson Assistant is more. It knows when to search for an answer from a knowledge base, when to ask for clarity and when to direct users to a human. Watson Assistant can be deployed in any cloud or on-premises environment – meaning smarter AI is finally available wherever you need it.</p>
+                        <a href="https://www.ibm.com/in-en/cloud/watson-assistant" target="_blank" class="btn btn-dark mt-3 animate-up-2">
+                            Learn More
+                            <span class="icon icon-xs ml-2">
+                                <i class="fas fa-external-link-alt"></i>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="col-12 col-lg-3 ml-lg-auto">
+                        <img src="./assets/img/illustrations/ibm-watson.svg" class="w-100" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <div class="card border-light p-4">
+                            <div class="card-body">
+                                <h2 class="display-2 mb-2">98%</h2>
+                                <span>Average satisfaction rating received.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <div class="card border-light p-4">
+                            <div class="card-body">
+                                <h2 class="display-2 mb-2">24/7</h2>
+                                <span> Our support team is a quick chat or email away.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <div class="card border-light p-4">
+                            <div class="card-body">
+                                <h2 class="display-2 mb-2">200+</h2>
+                                <span>Conversations exchanged between our Bot and Clients.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section section-lg" id="faq">
+            <div class="container">
+                <div class="row justify-content-center mb-5">
+                    <div class="col-12 text-center mb-4 mb-lg-5">
+                        <h2 class="display-3 mb-4">Facts & Questions</h2>
+                        <p class="lead">Have a question? Read through our FAQ below. If you can't find an answer, <br class="d-none d-lg-inline-block"> please email our support team. We're here to help.</p>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-10">
+                        <!--Accordion-->
+                        <div class="accordion" id="accordionExample">
+                            <div class="card border-light mb-0">
+                                <div class="card-header" id="headingOne">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-link btn-block d-flex justify-content-between text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            <span class="h6 mb-0 font-weight-bold">What is the purpose of a FAQ?</span>
+                                            <span class="icon"><span class="fas fa-plus"></span></span>
+                                        </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p class="mb-0">
+                                            Our mission has always been focused on bringing openness and transparency to the design process. We've always believed that by providing a space where designers can share ongoing work not only empowers them to make better products, it also
+                                            helps them grow. We're proud to be a part of creating a more open culture and to continue building a product that supports this vision.
+                                        </p>                           
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card border-light mb-0">
+                                <div class="card-header" id="headingTwo">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-link btn-block d-flex justify-content-between text-left" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            <span class="h6 mb-0 font-weight-bold">What is a ChatBot?</span>
+                                            <span class="icon"><span class="fas fa-plus"></span></span>
+                                        </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p class="mb-0">
+                                            A chatbot is a software application used to conduct an on-line chat conversation via text or text-to-speech, in lieu of providing direct contact with a live human agent. Designed to convincingly simulate the way a human would behave as a conversational partner, chatbot systems typically require continuous tuning and testing, and many in production remain unable to adequately converse or pass the industry standard Turing test.
+                                        </p>                           
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card border-light mb-0">
+                                <div class="card-header" id="headingThree">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-link btn-block d-flex justify-content-between text-left" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            <span class="h6 mb-0 font-weight-bold">What are the advantages of IBM Watson?</span>
+                                            <span class="icon"><span class="fas fa-plus"></span></span>
+                                        </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p class="mb-0">
+                                            It’s loaded with a highly capable machine learning engine. The framework also offers a free tier, extremely detailed Watson Assistant documentation, and a variety of SDKs so you can work on your bot in your preferred language. Since non-technical business users might end up managing your bot one day, there’s also a GUI that allows them to make changes. These users can even build a bot using the Watson Assistant GUI.
+                                        </p>                           
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card border-light mb-0">
+                                <div class="card-header" id="headingFour">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-link btn-block d-flex justify-content-between text-left" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                            <span class="h6 mb-0 font-weight-bold">Any Other Question?</span>
+                                            <span class="icon"><span class="fas fa-plus"></span></span>
+                                        </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p class="mb-0">
+                                            Please enter you Email at the bottom of the page and our support team will get back to you.
+                                        </p>                           
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End of Accordion-->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer py-5 pt-lg-0">
+    <div class="sticky-left">
+        <a href="#home" class="icon icon-primary icon-md btn btn-icon-only btn-white border border-soft shadow-soft animate-up-3">
+            <span class="fas fa-chevron-up"></span>
+        </a>
+    </div>
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="col-md-7">
+                <p>This is a IBM Watson Based Book Recommendation Chatbot that can recommend the users a specific book depending upon the genre that is provided.</p>
+                <ul class="social-buttons mb-5 mb-lg-0">
+                    <li>
+                        <a href="https://www.facebook.com/BookRecommender/" class="icon icon-md icon-facebook mr-3" aria-label="facebook social link" target="_blank">
+                            <span class="fab fa-facebook"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/themesberg" aria-label="github social link" class="icon icon-md icon-github mr-3">
+                            <span class="fab fa-github"></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-4 mb-5 mb-lg-0">
+                <span class="h5 mb-3 d-block">Contact Us</span>
+                <form action="#">
+                    <div class="form-row mb-2">
+                        <div class="col-12">
+                            <input type="email" class="form-control mb-2" placeholder="example@company.com" name="email" aria-label="Subscribe form" required>
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-dark shadow-soft btn-block" data-loading-text="Sending">
+                                <span>Get in touch</span>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+                <p class="text-muted font-small m-0">No spam. Pinky swear.</p>
+            </div>
+        </div>
+        <hr class="bg-light my-2">
+        <div class="row pt-2 pt-lg-5">
+            <div class="col mb-md-0">
+            <div class="d-flex text-center justify-content-center align-items-center" role="contentinfo">
+                <p class="font-weight-normal font-small mb-0">Copyright © DSC 2020. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <!-- Core -->
+<script src="./vendor/popper.js/dist/umd/popper.min.js"></script>
+<script src="./vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="./vendor/headroom.js/dist/headroom.min.js"></script>
+
+<!-- Vendor JS -->
+<script src="./vendor/onscreen/dist/on-screen.umd.min.js"></script>
+<script src="./vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+
+
+<!-- Swipe JS -->
+<script src="./assets/js/swipe.js"></script>
+
+</body>
+
+</html>
+<script>
+    window.watsonAssistantChatOptions = {
+        integrationID: "f7ce8b65-16de-4814-8ca3-29245808338b", // The ID of this integration.
+        region: "eu-gb", // The region your integration is hosted in.
+        serviceInstanceID: "94bcefdf-32bd-45df-9e52-da6cba4f57b7", // The ID of your service instance.
+        onLoad: function(instance) { instance.render(); }
+      };
+    setTimeout(function(){
+      const t=document.createElement('script');
+      t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+      document.head.appendChild(t);
+    });
+
+    function Trychatbot(){
+        const button = document.getElementById('WACLauncher__Button');
+        button.click();
+    }
+  </script>

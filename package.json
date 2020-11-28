@@ -1,0 +1,26 @@
+{
+  "name": "ibm-book-recommender-chatbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smit-sms/IBM-Book-Recommender-Chatbot.git"
+  },
+  "author": "Smit",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smit-sms/IBM-Book-Recommender-Chatbot/issues"
+  },
+  "homepage": "https://github.com/smit-sms/IBM-Book-Recommender-Chatbot#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.16",
+    "nodemon": "^2.0.6"
+  }
+}
