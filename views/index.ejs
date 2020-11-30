@@ -8,20 +8,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="120x120" href="./assets/img/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/img/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/favicon/favicon-16x16.png">
     <link rel="manifest" href="./assets/img/favicon/site.webmanifest">
-    <link rel="mask-icon" href="./assets/img/favicon/safari-pinned-tab.svg" color="#ffffff">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="theme-color" content="#ffffff">
 
     <!-- Fontawesome -->
     <link type="text/css" href="./vendor/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
 
     <!-- Swipe CSS -->
     <link type="text/css" href="./css/swipe.css" rel="stylesheet">
-
+    <style type="text/css">
+        .tooltip > .tooltip-inner {background-color: #102638; color: white;}
+    </style>
 </head>
 
 <body class="bg-soft">
@@ -81,9 +80,10 @@
                     <div class="col-12 col-md-5 justify-content-center">
                         <img src="./assets/img/illustrations/reading.svg">
                     </div>
-                    <a href="#about" class="icon icon-soft icon-md btn btn-icon-only btn-dark border border-soft shadow-soft animate-up-3">
+                    <a href="#about" class="icon icon-soft icon-md btn btn-icon-only btn-dark border border-soft shadow-soft animate-up-3" data-toggle="tooltip" data-placement="top" title="READ MORE">
                         <span class="fas fa-chevron-down"></span>
                     </a>
+
                 </div>
             </div>
         </section>
