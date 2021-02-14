@@ -9,11 +9,11 @@ An Intelligent Bot that recommends you some of the great books handpicked by us.
 
 1] Home Screen 
 
-  ![Home Screen](./Screenshots/Capture.png)  
+  ![Home Screen](./Screenshots/Capture.PNG)  
 
 2] Chat-Bot
 
-![Chat-bot](./Screenshots/Capture2.png)  
+![Chat-bot](./Screenshots/Capture2.PNG)  
 
 
 ## License
