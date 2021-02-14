@@ -4,5 +4,17 @@ An Intelligent Bot that recommends you some of the great books handpicked by us.
 
 > View live at: [Book Recommender Chatbot](https://book-recommender-chatbot.herokuapp.com)
 
+
+## Screenshots
+
+1] Home Screen 
+
+  ![Home Screen](./Screenshots/Capture.png)  
+
+2] Chat-Bot
+
+![Chat-bot](./Screenshots/Capture2.png)  
+
+
 ## License
 [MIT](https://github.com/smit-sms/IBM-Book-Recommender-Chatbot/blob/main/LICENSE)
