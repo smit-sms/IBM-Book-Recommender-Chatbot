@@ -15,6 +15,10 @@ An Intelligent Bot that recommends you some of the great books handpicked by us.
 
 ![Chat-bot](./Screenshots/Capture2.PNG)  
 
+[Developed By]
+[Smit Shah](https://github.com/smit-sms)
+[Chintan Vora](https://github.com/cvora51)
+[Divyesh Sapariya](https://github.com/DiviSp)
 
 ## License
 [MIT](https://github.com/smit-sms/IBM-Book-Recommender-Chatbot/blob/main/LICENSE)
